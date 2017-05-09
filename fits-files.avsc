@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "FitsFiles",
+  "aliases": ["Fits"],                      
+  "fields" : [
+    {"name": "name", "type": "string", "doc": "Fits file name"},             
+    {"name": "content", "type": "bytes", "doc": "Binary content of the fits file"} 
+  ]
+}
